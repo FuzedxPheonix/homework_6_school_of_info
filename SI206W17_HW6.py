@@ -207,19 +207,8 @@ def len_check(lines):
 
 # Define main_filterer
 def main_filterer (lst_strings):
-    for items in lst_strings:
-        # print(items)
-        # print(readfiles(items))
+    return(list(len_check(readfiles(lst_strings))))
 
-        # print(len_check(items))
-
-        ok = items
-
-        yield ok
-
-        # print(ok)
-
-    return ok
 
 
 
